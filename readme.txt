@@ -8,8 +8,11 @@ whenever a program crashes.
 Compile
 -----------
 - Use Visual Studio 2013 to compile the software.
+- First download IHULIB library from:
+  https://github.com/IntellectualHeaven/ihulib/releases/download/v1.0/ihulib_v_1_0.zip
+- Extract this to crashdoctor/extrn/ihulib (preserve folder paths)
+- You should have files like ihulib/bin/x64/Debug/ihulib.lib etc.
 - Open crashdoctor.sln in make folder and build.
-- Please ensure that you have cloned ihulib as well.
 
 
 Install
